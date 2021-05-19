@@ -1,7 +1,7 @@
 
 # ECMAScript
 ECMAScript es la especificacion del lenguaje propuesto por ECMAInternacional, que es una institucion encargada de los estandares. Y Javascript es el lenguaje de progamacion que utiliza esta especificacion para trabajar sobre estas caracteristicas que van siendo añadidas año tras año a partir del 2015, que fue lanzada la version 6. En este repositorio podra ver cada una de las novedades que fueron añadidas año tras año. 
-## Novedades en ES6:
+## Novedades en ES6: (Año 2015)
 - Default Params
 - Template Literals
 - Multilínea
@@ -14,20 +14,20 @@ ECMAScript es la especificacion del lenguaje propuesto por ECMAInternacional, qu
 - Clases
 - Módulos
 - Generators
-## Novedades en ES7
+## Novedades en ES7 (Año 2016)
 - Método .includes()
 - Elevación a potencia
-## Novedades en ES8
+## Novedades en ES8 (Año 2017)
 - Object.entries() y Object.value()
 - Text pad
 - Trailling Commas
 - Async/Await
-## Novedades en ES9
+## Novedades en ES9 (Año 2018)
 - Operador de reposo
 - Unión de objetos
 - Finally
 - Regex
-## Novedades en ES10
+## Novedades en ES10 (Año 2019)
 - Método .flat()
 - Método .flatMap()
 - .trimStart() y .trimEnd()
