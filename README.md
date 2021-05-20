@@ -34,3 +34,11 @@ ECMAScript es la especificacion del lenguaje propuesto por ECMAInternacional, qu
 - try-catch sin error
 - Object.fromEntries()
 - Symbol
+
+## Novedades en ES11 (Año 2020)
+- bigInt 
+- Dinamic Import
+- Global This
+- matchAll()
+- Opcional Chaining 
+- Promise.allSettled()
