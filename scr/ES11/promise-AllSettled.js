@@ -1,5 +1,5 @@
-//Una de las incorporacion en ES11 es la incoporacion de la propiedad AllSettled.
-//El metodo Promise.allSettled recibe un array de promesas y se resuelve cuando estas hayan sido concluidas,
+//Una de las incorporacion en ES11 es la incoporacion del metodo allSettled.
+//El metodo Promise.allSettled() recibe un array de promesas y se resuelve cuando estas hayan sido concluidas,
 //sin importar si fueron resueltas(resolve) o rechazadas(reject)
 //Veamos un ejemplo para entenderlo mejor. 
 
@@ -18,3 +18,13 @@ Promise.allSettled([p1, p2, p3])
     {status: "fulfilled", value: "Promesa resuelta"}
 ]
 */    
+
+//Veamos otro ejemplo para entenderlo mejor. 
+
+const promises = [
+    fetch('/api-call-1'),
+    fetch('/api-call-2'),
+    fetch('/api-call-3'),
+]
+
+await Promise.allSettled(promises);
