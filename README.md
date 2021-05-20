@@ -42,3 +42,10 @@ ECMAScript es la especificacion del lenguaje propuesto por ECMAInternacional, qu
 - matchAll()
 - Opcional Chaining 
 - Promise.allSettled()
+
+## Novedades en ES12 (Año 2021)
+- Await Top Level
+- Asignacion de Operadores Logicos
+- Literales Numericos
+- Promise.any()
+- .replaceAll()
